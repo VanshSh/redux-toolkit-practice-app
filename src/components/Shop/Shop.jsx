@@ -19,6 +19,7 @@ function Shop() {
   };
   const emptyCartHandler = () => {
     dispatch(emptyCartActions.togglShowATCBtn());
+    dispatch(atcActions.add_items_to_cart(0));
   };
 
   return (
