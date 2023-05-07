@@ -13,7 +13,7 @@ function Shop() {
 
   const atcHandler = () => {
     const totalItems = inputRef.current.value;
-    console.log(totalItems);
+
     dispatch(emptyCartActions.togglShowATCBtn());
     dispatch(atcActions.add_items_to_cart(totalItems));
   };
