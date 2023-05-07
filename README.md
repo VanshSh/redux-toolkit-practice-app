@@ -8,7 +8,7 @@
 
 4. Import ` import { createSlice, configureStore } from '@reduxjs/toolkit'`
 5. Create the initial State  
-    `const initial_ATC_State = { itemsToAddToCart: 0, showEmptyCart: false, };`
+    `const initial_ATC_State = { itemsToAddToCart: 0 };`
 
    `const inital_empty_cart_state = { showATC: true, };`
 
